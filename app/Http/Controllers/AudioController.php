@@ -35,7 +35,7 @@ class AudioController extends Controller
         $text = $request->input('text');
         
         
-        $voiceId = '7i7dgyCkKt4c16dLtwT3';
+        $voiceId = 'xWdpADtEio43ew1zGxUQ';
         $endpoint = "https://api.elevenlabs.io/v1/text-to-speech/{$voiceId}";
 
         try {
